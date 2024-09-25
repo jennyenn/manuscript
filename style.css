@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+* { color: black; }
+
+h1 {color:brown}
+header > time {
+	font: italic 0.7rem sans-serif;
+  }
 body{
 	color: rgb(208, 73, 96) ;
 	font-family: "Work Sans", sans-serif;
