@@ -8,7 +8,8 @@ body{
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 300;
-	line-height: 130%;
+	line-height: 150%;
+}
 
 h1 {
 	text-align: center;
@@ -29,7 +30,60 @@ h1 {
 	-webkit-text-fill-color: transparent;
 }
 
-header > aside {
+header h2{
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 130%;
+	margin: 0 300px;
+}
+header p{
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 10px 300px;
+}
+
+header aside p{
 	font-style: italic;
-	font-size: 12px;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 20px 300px 0px 300px;
+}
+
+header aside time {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 0px 300px 40px 300px;
   }
+
+.section-wrapper{
+	margin: 20px 300px
+}
+
+blockquote{
+	margin: 60px 300px 40px 500px;
+    padding: 10px 20px;
+    background: white;
+    font-style: italic;
+}
+blockquote p{
+	margin-bottom: 20px;
+}
+blockquote strong{
+	font-family: "Instrument Serif", serif;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+a:link { 
+	background: linear-gradient(to right, #588cc1, #7a50d0);
+  	-webkit-background-clip: text;  
+ 	 -webkit-text-fill-color: transparent; }
+a:hover { 
+	background: linear-gradient(to right, #F8C2A4, #EDA9A6, #E8A7E0);
+ 	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; }
+
+a:visited { text-decoration: underline; }
