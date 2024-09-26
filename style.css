@@ -79,11 +79,11 @@ blockquote strong{
 
 a:link { 
 	background: linear-gradient(to right, #588cc1, #7a50d0);
-  	-webkit-background-clip: text;  
+	background-clip: text;  
  	 -webkit-text-fill-color: transparent; }
 a:hover { 
 	background: linear-gradient(to right, #F8C2A4, #EDA9A6, #E8A7E0);
- 	-webkit-background-clip: text;
+	background-clip: text;
   	-webkit-text-fill-color: transparent; }
 
 a:visited { text-decoration: underline; }
