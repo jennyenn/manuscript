@@ -11,6 +11,36 @@ body{
 	line-height: 150%;
 }
 
+.section-wrapper{
+	margin: 20px 300px
+}
+.section-wrapper strong{
+	font-weight: 400;
+}
+.section-wrapper p{
+	margin-bottom: 20px;
+}
+.section-wrapper h2{
+	margin: 60px 0 40px 0;
+
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+
+	font-family: "Instrument Serif", serif;
+	font-size: 100px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 120%;
+
+	background: linear-gradient(to right, #F8C2A4, #EDA9A6, #E8A7E0);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.section-wrapper q{
+	font-style: italic;
+}
+
 h1 {
 	text-align: center;
 	margin: 100px auto 50px auto;
@@ -58,23 +88,25 @@ header aside time {
 	margin: 0px 300px 40px 300px;
   }
 
-.section-wrapper{
-	margin: 20px 300px
-}
-
 blockquote{
-	margin: 60px 300px 40px 500px;
-    padding: 10px 20px;
+	margin: 60px 300px 60px 500px;
+    padding:20px 20px;
     background: white;
     font-style: italic;
 }
 blockquote p{
-	margin-bottom: 20px;
+	margin: 20px 20px;
 }
 blockquote strong{
 	font-family: "Instrument Serif", serif;
 	font-style: italic;
 	letter-spacing: 1px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+footer{
+	margin:20px 300px;
+	font-size: 30px;
 }
 
 a:link { 
