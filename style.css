@@ -15,7 +15,7 @@ body{
 	margin: 60px 300px
 }
 .section-wrapper strong{
-	font-weight: 400;
+	font-weight: 500;
 }
 .section-wrapper p{
 	margin-bottom: 20px;
@@ -108,12 +108,12 @@ blockquote strong{
 footer{
 	margin:20px 300px;
 	padding:20px 0;
-	font-size: 60px;
+	font-size: 50px;
 	font-style: italic;
 }
 
 a:link { 
-	background: linear-gradient(to right, #4683c0, #7a50d0);
+	background: linear-gradient(to right, #3c86d1, #7c49e2);
 	background-clip: text;  
  	 -webkit-text-fill-color: transparent; }
 a:hover { 
