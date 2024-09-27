@@ -12,7 +12,7 @@ body{
 }
 
 .section-wrapper{
-	margin: 20px 300px
+	margin: 60px 300px
 }
 .section-wrapper strong{
 	font-weight: 400;
@@ -112,12 +112,14 @@ footer{
 }
 
 a:link { 
-	background: linear-gradient(to right, #588cc1, #7a50d0);
+	background: linear-gradient(to right, #4683c0, #7a50d0);
 	background-clip: text;  
  	 -webkit-text-fill-color: transparent; }
 a:hover { 
-	background: linear-gradient(to right, #F8C2A4, #EDA9A6, #E8A7E0);
+	background: linear-gradient(to right, #f0aa84, #ed9792, #df91d6);
 	background-clip: text;
   	-webkit-text-fill-color: transparent; }
 
-a:visited { text-decoration: underline; }
+a:visited { 
+	color: black;
+	text-decoration: underline; }
