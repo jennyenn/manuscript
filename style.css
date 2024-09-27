@@ -106,7 +106,9 @@ blockquote strong{
 }
 footer{
 	margin:20px 300px;
+	padding:20px 0;
 	font-size: 30px;
+	font-style: italic;
 }
 
 a:link { 
