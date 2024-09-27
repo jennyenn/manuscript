@@ -61,7 +61,7 @@ h1 {
 }
 
 header h2{
-	font-size: 30px;
+	font-size: 35px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 130%;
@@ -107,7 +107,7 @@ blockquote strong{
 footer{
 	margin:20px 300px;
 	padding:20px 0;
-	font-size: 30px;
+	font-size: 60px;
 	font-style: italic;
 }
 
