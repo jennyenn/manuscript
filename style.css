@@ -2,7 +2,7 @@
 
 body{
 	background-color: rgba(255, 250, 245, 1);
-	color:black ;
+	color:rgb(20, 20, 20) ;
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-style: normal;
@@ -50,7 +50,7 @@ h1 {
 	margin: 100px auto 50px 360px;
 	
 	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-color: rgb(20, 20, 20) ;
 
 	font-family: "Instrument Serif", serif;
 	font-size: 220px;
@@ -123,7 +123,7 @@ blockquote{
 	border-radius: 20px;
 	border-width: 1px;
 	border-style: dotted; 
-	border-color: gray;
+	border-color: rgb(20, 20, 20) ;
 }
 
 blockquote strong{
@@ -142,7 +142,7 @@ blockquote h2{
 	font-weight: 500;
 	letter-spacing: 1px;
 	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-color: rgb(20, 20, 20) ;
 }
 
 blockquote em{
@@ -150,7 +150,7 @@ blockquote em{
 	font-style: italic;
 	letter-spacing: 1px;
 	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-color: rgb(20, 20, 20) ;
 }
 
 hr{
@@ -195,6 +195,15 @@ a[href^="#"]:hover {
 	background-clip: text;
   	-webkit-text-fill-color: transparent; }
 
+section header{
+	background-color:rgba(255, 250, 245, 1) ;
+	position: sticky;
+	top: 0px;
+	padding-top: 40px;
+	padding-bottom: 1px;
+	margin-top: -40px;
+}
+
 .gradient {
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
@@ -203,8 +212,6 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
-position: sticky;
-top: 40px;
 }
 
 .container{
