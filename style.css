@@ -183,6 +183,7 @@ footer {
     font-size: 30px;
     font-style: italic;
 	font-weight: 500;
+	line-height: 170%;
 }
 footer aside{
 	text-align: left;
@@ -205,8 +206,12 @@ a:visited {
 	color: black;
 	text-decoration: underline; } */
 
-/* a[href^="#"] {
-	color: black ;
-	font-style: italic ;
-	text-decoration: none ;
-} *
+a[href^="#"] {
+	background: linear-gradient(to right, #d1613c, #e24949);
+	background-clip: text;  
+ 	-webkit-text-fill-color: transparent; }
+
+a[href^="#"]:hover { 
+	background: linear-gradient(to right, #766ce8, #6549e2);
+	background-clip: text;
+  	-webkit-text-fill-color: transparent; }
