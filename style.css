@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto+Condensed:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
 
-
 body{
 	background-color: rgba(255, 250, 245, 1);
 	color:black ;
@@ -48,7 +47,9 @@ q{
 .highlight{
 	font-style: normal;
 	font-weight: 500;
-	background: linear-gradient(to right, #f9f1e4, #f8e6e5);
+	/* background: linear-gradient(to right, #f8e7cc, #fbcdca); */
+	/* background-color:  #ffe6bf; */
+	text-decoration: underline;
 }
 
 ul{
@@ -201,10 +202,6 @@ a:hover {
 	background: linear-gradient(to right, #f0aa84, #ed9792, #df91d6);
 	background-clip: text;
   	-webkit-text-fill-color: transparent; }
-/* 
-a:visited { 
-	color: black;
-	text-decoration: underline; } */
 
 a[href^="#"] {
 	background: linear-gradient(to right, #d1613c, #e24949);
