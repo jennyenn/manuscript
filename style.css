@@ -26,18 +26,6 @@ p em {
 	font-weight: 300;
 }
 
-.gradient {
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
-	background: linear-gradient(to right, #fbcc86, #EDA9A6, #e892a3);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-
-	position: sticky;
-	top: 40px;
-}
-
 q{
 	font-style: italic;
 	font-weight: 400;
@@ -87,6 +75,7 @@ h2{
 }
 
 h3{
+	background-color: rgba(255, 250, 245, 1);
 	margin-bottom: 40px;
 	font-family: "Instrument Serif", serif;
 	font-size: 60px;
@@ -170,13 +159,6 @@ hr{
 	border-width: 1px;
 }
 
-.container{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px;
-}
-
 footer {
     text-align: right;
     margin: 40px 380px 80px 380px;
@@ -212,3 +194,22 @@ a[href^="#"]:hover {
 	background: linear-gradient(to right, #766ce8, #6549e2);
 	background-clip: text;
   	-webkit-text-fill-color: transparent; }
+
+.gradient {
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+background: linear-gradient(to right, #fbcc86, #EDA9A6, #e892a3);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+position: sticky;
+top: 40px;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
