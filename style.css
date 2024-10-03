@@ -118,7 +118,7 @@ aside time {
 blockquote{
 	margin: 60px 380px 60px 350px;
     padding:40px 40px;
-    background: white;
+    background: rgb(255, 255, 255, 0.5);
     font-style: italic;
 	border-radius: 20px;
 	border-width: 1px;
