@@ -147,6 +147,7 @@ blockquote h2{
 
 blockquote em{
 	font-family: "Instrument Serif", serif;
+	font-size: 19px;
 	font-style: italic;
 	letter-spacing: 1px;
 	-webkit-text-stroke-width: 1px;
@@ -224,7 +225,7 @@ background-clip: text;
 	padding-left: 10px;
 }
 .custom-list li:not(:last-child){
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 }
 
 .container{
