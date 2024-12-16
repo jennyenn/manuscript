@@ -78,15 +78,36 @@ h1 {
 	-webkit-text-stroke-color: rgb(20, 20, 20) ;
 
 	font-family: "Instrument Serif", serif;
-	font-size: 124px;
+	font-size: 92px;
 	font-style: italic;
 	font-weight: 500;
 	line-height: 80%;
 
-	background: linear-gradient(to right, #f8dfa4, #EDA9A6, #d892e8);
+	background: linear-gradient(to right, #f8dfa4, #EDA9A6, #d892e8, #EDA9A6, #f8dfa4);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	background-size: 200% 150%;
+
+	animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift{
+	0%{
+		background-position: 0 0;
+	}
+	50%{
+		background-position: 100% 0;
+	}
+	100%{
+		background-position: 200% 0
+	}
+}
+
+h1 span{
+	display: flex;
+	padding-top: 40px;
+	justify-content: left;
 }
 
 h2{
@@ -113,9 +134,9 @@ h3{
 
 header h2{
 	font-family: "Roboto", sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	font-style: italic;
-	font-weight: 600;
+	font-weight: 500;
 	line-height: 130%;
 	margin: 0 auto;
 }
@@ -123,8 +144,9 @@ header p{
 	width: 80vw;
 	font-size:18px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 	margin: 10px auto;
+	line-height: 120%;
 }
 
 div aside{
@@ -151,7 +173,6 @@ blockquote{
 	border-style: dotted; 
 	border-color: rgb(20, 20, 20) ;
 	display: flex;
-	flex-direction: wrap;
 }
 
 blockquote strong{
@@ -165,7 +186,7 @@ blockquote p:not(:first-child){
 blockquote h2{
 	margin-top: 0px;
 	font-family: "Instrument Serif", serif;
-	font-size: 56px;
+	font-size: 40px;
 	font-style: italic;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -184,27 +205,27 @@ blockquote em{
 }
 
 blockquote p{
-	width: 100%;
-	margin-bottom: 0px;
+	width: 90%;
+}
+
+section h3{
+	font-size: 40px;
+	margin-bottom: 10px;
 }
 
 hr{
 	width: 80vw;
-	margin: 100px auto;
+	margin: 40px auto;
 	border: dotted;
 	border-width: 1px;
 }
 
 footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	padding: 10px;
 	width: 80vw;
-    text-align: right;
-    margin: 40px auto 80px auto;
-    padding: 40px 0;
-    font-size: 30px;
+    margin: 20px auto 60px auto;
+    padding: 20px 0;
+    font-size: 24px;
     font-style: italic;
 	font-weight: 500;
 	line-height: 170%;
@@ -283,6 +304,10 @@ article:nth-of-type(2) .custom-list li:not(:last-child){
 		font-size: 250px;
 		margin-top: 12vw;
 	}
+
+	h1 span{
+		display:inline-block;
+	}
 	
 	section header h3{
 		background-color:rgba(255, 250, 245, 1) ;
@@ -329,6 +354,18 @@ article:nth-of-type(2) .custom-list li:not(:last-child){
 		font-size: 20px;
 		margin-left: 80vw; 
 		transform: translateY(-10vh);
+	}
+
+	footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 40px auto 80px auto;
+		padding: 40px 0;
+	}
+
+	hr{
+		margin: 100px auto;
 	}
 
 	.grid_container{
