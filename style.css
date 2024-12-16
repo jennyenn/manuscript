@@ -83,7 +83,7 @@ h1 {
 	font-weight: 500;
 	line-height: 80%;
 
-	background: linear-gradient(to right, #f8dfa4, #EDA9A6, #d892e8, #EDA9A6, #f8dfa4);
+	background: linear-gradient(to right, #f8dfa4, #EDA9A6, #d79ee3, #EDA9A6, #f8dfa4);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -108,6 +108,7 @@ h1 span{
 	display: flex;
 	padding-top: 40px;
 	justify-content: left;
+	font-size: smaller;
 }
 
 h2{
@@ -267,8 +268,10 @@ section header {
 	z-index: 20;
 }
 
-#response h2{
+/* why it doesn't work??? */
+section h2{
 	position: sticky;
+	top: 0px;
 }
 
 .gradient{
@@ -282,7 +285,6 @@ background-clip: text;
 
 .custom-list{
     list-style-position: outside;
-	list-style-type: "*";
     padding-left: 20px;
 }
 
@@ -302,7 +304,7 @@ article:nth-of-type(2) .custom-list li:not(:last-child){
 
 	h1 {
 		font-size: 250px;
-		margin-top: 12vw;
+		margin-top: 10vw;
 	}
 
 	h1 span{
@@ -394,6 +396,9 @@ article:nth-of-type(2) .custom-list li:not(:last-child){
 	#response h2{
 		font-size: 100px;
 		position: sticky;
+		/* why it doesn't work??? */
+		/* why it doesn't work??? */
+		/* why it doesn't work??? */
 		top: 0px;
 	}
 	
