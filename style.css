@@ -353,6 +353,7 @@ article:nth-of-type(2) .custom-list li:not(:last-child){
 	}
 
 	blockquote h2{
+		font-size: 52px;
 		margin: 40px;
 	}
 
